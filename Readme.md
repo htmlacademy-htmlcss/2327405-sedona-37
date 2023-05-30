@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Максим Новиков](https://up.htmlacademy.ru/htmlcss/37/user/2327405).
-* Наставник: `Виктория Никитина`(https://htmlacademy.ru/profile/id1217273).
+* Наставник: [Виктория Никитина](https://htmlacademy.ru/profile/id1217273).
 
 ---
 
