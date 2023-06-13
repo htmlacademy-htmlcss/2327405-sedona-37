@@ -1,0 +1,165 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/ptsans-400.woff2) format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/ptsans-700.woff2) format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans" sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+}
+
+.visually-hidden {
+  display: none;
+}
+
+.navigation-item a {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  text-transform: capitalize;
+  text-decoration-line: none;
+  color: #000000;
+}
+
+.navigation-person-link {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-decoration-line: none;
+}
+
+.navigation-person-want{
+  background-color:#756157;
+  color:#FFFFFF;
+  text-decoration-line: none;
+}
+
+.likes {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 10px;
+  background-color:#7DB54F;
+  border-radius: 50%;
+  color:#FFFFFF
+}
+
+.welcome {
+  background-image: url(../images/mountains.jpg);
+  background-repeat: no-repeat;
+}
+
+.reasons-description {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.reasons-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.reasons-text {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.recomendations-invitation {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.recomendations-title {
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.recomendation-text {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.interest-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.interest-link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-decoration-line: none;
+  text-transform: uppercase;
+  background-color:#756157;
+  color:#FFFFFF
+}
+
+.subscription {
+  background-image: url(../images/mountains-blure.jpg);
+  background-repeat: no-repeat;
+}
+
+.subscription-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.subscription-text {
+  color: #FFFFFF;
+}
+
+.subscribe-button {
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: #82B3D3;
+  color: #FFFFFF
+}
+
+.subscribe-field {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.contacts-link{
+  font-weight: 400;
+font-size: 40px;
+line-height: 40px;
+text-transform: uppercase;
+color: #000000;
+text-decoration-line: none ;
+}
+
