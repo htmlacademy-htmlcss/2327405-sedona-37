@@ -41,6 +41,7 @@
           </defs>
         </svg>
       </a>
+      <div class="navigation-flex">
       <nav class="header-navigation">
         <ul class="navigation-list">
           <li class="navigation-item">
@@ -53,14 +54,13 @@
             <a href="catalog.html" class="navigation-link">Гостиницы</a>
           </li>
         </ul>
+      </div>
         <ul class="navigation-person-list">
           <li class="navigation-person-item">
             <a href="#" class="navigation-person-link">
-              <svg width="44" height="64" viewBox="0 0 44 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M31.5 40.0083L27.8 36.3287C28.8 35.0359 29.5 33.3453 29.5 31.4558C29.5 27.0801 25.9 23.5 21.5 23.5C17.1 23.5 13.5 27.1796 13.5 31.5552C13.5 35.9309 17.1 39.511 21.5 39.511C23.3 39.511 25 38.9144 26.4 37.8204L30.1 41.5L31.5 40.0083ZM21.5 37.5221C18.2 37.5221 15.5 34.837 15.5 31.5552C15.5 28.2735 18.2 25.5884 21.5 25.5884C24.8 25.5884 27.5 28.2735 27.5 31.5552C27.5 34.837 24.8 37.5221 21.5 37.5221Z"
-                  fill="black" />
-              </svg>
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19.5 18.0083L15.8 14.3287C16.8 13.0359 17.5 11.3453 17.5 9.4558C17.5 5.08011 13.9 1.5 9.5 1.5C5.1 1.5 1.5 5.17956 1.5 9.55525C1.5 13.9309 5.1 17.511 9.5 17.511C11.3 17.511 13 16.9144 14.4 15.8204L18.1 19.5L19.5 18.0083ZM9.5 15.5221C6.2 15.5221 3.5 12.837 3.5 9.55525C3.5 6.27348 6.2 3.5884 9.5 3.5884C12.8 3.5884 15.5 6.27348 15.5 9.55525C15.5 12.837 12.8 15.5221 9.5 15.5221Z" fill="black"/>
+                </svg>
             </a>
           </li>
           <li class="navigation-person-item">
@@ -73,7 +73,7 @@
               <span class="likes">12</span>
             </a>
           </li>
-          <li class="navigation-person-item">
+          <li class="navigation-person-item want">
             <a href="#" class="navigation-person-want">Хочу сюда</a>
           </li>
         </ul>
@@ -97,31 +97,45 @@
       </section>
       <section class="reasons">
         <h2 class="visually-hidden">Причины посетить Седону</h2>
+        <div class="container-description">
         <p class="reasons-description">Седона — небольшой городок в Аризоне,
           заслуживающий большего!
         <p class="sedona-better">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
+      </div>
         <ul class="reasons-list">
           <li class="reasons-item">
+            <div class="reasons-container">
+            <div class="real-city">
             <h3 class="reasons-title">Настоящий городок</h3>
             <p class="reasons-text">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+            </div>
             <img src="images/sedona-photo.jpg" width="800" height="385" alt="Фото города" class="reasons-image">
+          </div>
           </li>
+          <div class="many-reasons">
           <li class="reasons-item">
             <h3 class="reasons-title">Небольшая площадь</h3>
             <p class="reasons-text">Все достопримечательности находятся очень близко</p>
           </li>
           <li class="reasons-item">
+            <div class="beautiful-road">
             <h3 class="reasons-title">Красивая дорога</h3>
             <p class="reasons-text">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+          </div>
           </li>
           <li class="reasons-item">
             <h3 class="reasons-title">Мало туристов</h3>
             <p class="reasons-text">Большинство едет в Гранд Каньон и толпится там</p>
           </li>
+        </div>
           <li class="reasons-item">
+            <div class="reasons-container">
             <img src="images/devils-bridge.jpg" width="800" height="385" alt="Фото моста дьявола" class="reasons-image">
+            <div class="real-city">
             <h3 class="reasons-title">Там есть мост дьявола</h3>
             <p class="reasons-text">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+          </div>
+          </div>
           </li>
         </ul>
       </section>
@@ -131,7 +145,8 @@
         <p class="recomendations-text">Опытный персонал и качественное обслуживание!</p>
         <ul class="recomendations-list">
           <li class="recomendations-item">
-            <svg width="76" height="72" viewBox="0 0 76 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <div class="recomendations-container">
+            <svg class="recomendations-item-svg" width="76" height="72" viewBox="0 0 76 72" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M30.1185 65H46.1827V41.2H30.1185V65ZM33.0301 44.1H43.1707V62.1H33.0301V44.1Z" fill="#83B3D3" />
               <path
                 d="M73.3916 39.3L75.5 37.2L65.5602 27.3V0H51.6044V13.6L37.9498 0L0.5 37.2L2.60843 39.3L10.4398 31.5V69.1H6.42369V72H70.5803V69.1H65.4598V31.5L73.3916 39.3ZM62.5482 69.1H13.3514V28.5L37.9498 4.1L62.5482 28.5V69.1ZM62.5482 24.4L54.6165 16.5V2.9H62.5482V24.4Z"
@@ -151,9 +166,11 @@
             <h3 class="recomendations-title">Жильё</h3>
             <p class="recomendation-text">Рекомендуем пожить в настоящем мотеле,
               всё как в кино!</p>
+            </div>
           </li>
           <li class="recomendations-item">
-            <svg width="75" height="70" viewBox="0 0 75 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <div class="recomendations-container">
+            <svg class="recomendations-item-svg" width="75" height="70" viewBox="0 0 75 70" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M70.5757 46.7H4.6103C2.30452 46.7 0.5 48.6 0.5 51V54.5C0.5 56.9 2.40477 58.8 4.6103 58.8H5.51257V59.9C5.51257 65.4 9.82337 70 15.1367 70H59.8488C65.1621 70 69.4729 65.5 69.4729 59.9V58.8H70.3752C72.681 58.8 74.4855 56.9 74.4855 54.5V51C74.686 48.7 72.7812 46.7 70.5757 46.7ZM66.6659 59.9C66.6659 63.8 63.6583 66.9 59.949 66.9H15.1367C11.4274 66.9 8.41985 63.7 8.41985 59.9V58.8H66.6659V59.9ZM71.7787 54.5C71.7787 55.2 71.1772 55.8 70.5757 55.8H4.51005C3.80829 55.8 3.30704 55.2 3.30704 54.5V51C3.30704 50.3 3.90855 49.7 4.51005 49.7H70.4754C71.1772 49.7 71.6784 50.3 71.6784 51C71.7787 51 71.7787 54.5 71.7787 54.5Z"
                 fill="#83B3D3" />
@@ -176,9 +193,11 @@
             <h3 class="recomendations-title">Еда</h3>
             <p class="recomendation-text">Всегда заказывайте
               топовый фирменный бургер, вы не разочаруетесь!</p>
+            </div>
           </li>
           <li class="recomendations-item">
-            <svg width="65" height="76" viewBox="0 0 65 76" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <div class="recomendations-container">
+            <svg class="recomendations-item-svg" width="65" height="76" viewBox="0 0 65 76" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M61.6 22.4625H61.5H36.8C50.6 15.5576 51.7 11.1546 51.2 8.75288C50 4.75007 45.5 1.74797 41.2 3.34909C35.6 5.45056 34.1 13.7564 32.6 19.7606C30.6 13.6563 28.8 5.95091 24.4 2.04818C23.1 0.947407 21.3 -0.253434 18.6 0.0467764C14.6 0.447057 8.8 5.45056 11.1 11.0545C13.4 16.4583 20.8 19.8607 25.7 22.5626H3.7H3.4C1.8 22.5626 0.5 23.8635 0.5 25.4646V36.7725C0.5 38.3736 1.8 39.6745 3.4 39.6745H3.7V72.9979V75.3996V76H61.5V75.4996V72.9979V39.5745H61.6C63.2 39.5745 64.5 38.2736 64.5 36.6724V25.3645C64.5 23.7634 63.2 22.4625 61.6 22.4625ZM42.9 5.85084C45 5.55063 47.9 7.15176 48.2 9.05309C48.6 11.8551 44.8 14.3568 43.1 15.4576C40.6 17.1588 38.2 18.0594 35.8 19.5604C36.7 15.8579 38.3 6.55133 42.9 5.85084ZM20 15.8579C17.8 14.3568 13.5 11.4548 13.6 8.05239C13.7 4.44986 19.3 1.44776 22.4 4.14965C26.3 7.55203 28.1 15.2574 29.5 20.7613C26.3 19.2602 23.2 17.9593 20 15.8579ZM26 72.9979H6.6V39.5745H26V72.9979ZM26 36.4723H3.5V25.4646H26V36.4723ZM36.2 36.4723V39.4744V72.9979H29V39.5745V36.5724V25.5647H36.2V36.4723ZM58.5 72.9979H39.1V39.5745H58.5V72.9979ZM61.4 36.4723H39.1V25.4646H61.4V36.4723Z"
                 fill="#83B3D3" />
@@ -186,6 +205,7 @@
             <h3 class="recomendations-title">Сувениры</h3>
             <p class="recomendation-text">Не только китайского,
               но и настоящего местного производства!</p>
+            </div>
           </li>
         </ul>
       </section>
