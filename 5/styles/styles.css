@@ -1,0 +1,747 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/ptsans-400.woff2) format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/ptsans-700.woff2) format("woff2");
+  font-display: swap;
+}
+
+html {
+  height: 100%;
+}
+
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+body {
+  background-color: #F2F2F2;
+  margin: 0;
+  height: 100%;
+}
+
+.page-main {
+  text-align: center;
+}
+
+.main-container {
+  flex-grow: 1;
+}
+
+.page-header {
+  position: relative;
+  padding: 0 70px 0 239px;
+
+}
+
+.logo-link {
+  position: absolute;
+  top: 0;
+  left: 70px;
+}
+
+.header-navigation {
+  display: flex;
+}
+
+.navigation-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 440px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.navigation-link {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  text-transform: capitalize;
+  text-decoration-line: none;
+  color: #000000;
+  padding: 20px 16px;
+  display: block;
+}
+
+.navigation-person-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-width: 300px;
+  margin-left: auto;
+  display: flex;
+}
+
+.navigation-person-item {
+padding: 20px 12px;
+display: block;
+}
+
+.navigation-person-link {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-decoration-line: none;
+}
+
+.navigation-person-want {
+  background-color: #756157;
+  color: #FFFFFF;
+  text-decoration-line: none;
+  border-radius: 4px;
+  padding: 8px 34px;
+}
+
+
+.likes {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 10px;
+  background-color: #7DB54F;
+  border-radius: 50%;
+  color: #FFFFFF
+}
+
+.welcome {
+  background-color: #4e7f9f;
+  background-image: url("../images/divider.svg"), url("../images/mountains.jpg");
+  background-repeat: no-repeat no-repeat;
+  padding: 51px 0 78px;
+  background-size: 100% 57px, cover;
+  background-position: 0 calc(100% + 1px), center 0;
+  min-height: 356px;
+}
+
+.reasons {
+  padding-top: 64px;
+  text-align: center;
+}
+
+.container-description {
+  width: 700px;
+  margin: 0 auto 90px;
+}
+
+.reasons-description {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #000000;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.sedona-better {
+  padding: 0;
+  margin: 0;
+}
+
+.reasons-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 64px;
+}
+
+.reasons-item {
+  display: flex;
+  background: rgba(131, 179, 211, 0.2);
+}
+
+.reasons-item:nth-child(even) {
+  background: rgba(131, 179, 211, 0.12);
+}
+
+.reasons-container {
+  width: 400px;
+  padding: 113px 85px;
+  box-sizing: border-box;
+}
+
+.reasons-item-special .reasons-container {
+  padding: 102px 85px;
+  background-color: #82B3D3;
+  color: #FFFFFF;
+}
+
+.reasons-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 62px;
+  ;
+}
+
+.reasons-item-special .reasons-title {
+  color: #FFFFFF;
+}
+
+.reasons-text {
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0;
+  padding: 0;
+}
+
+.reasons-image {
+  height: 100%;
+  object-fit: cover;
+}
+
+.container-recomendation {
+  width: 550px;
+  margin: 0 auto 64px;
+
+}
+
+.recomendations-invitation {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.recomendations-text {
+  margin: 0;
+  padding: 0;
+}
+
+.recomendations-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-bottom: 96px;
+}
+
+.recomendations-item {
+  background-color: rgba(131, 179, 211, 0.12);
+  padding: 186px 85px 81px;
+  width: 230px;
+}
+
+.recomendations-item:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.recomendations-title {
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.recomendation-text {
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0;
+  padding: 0;
+
+}
+
+.interest {
+  margin: 0 auto;
+  padding: 0;
+  width: 600px;
+  margin-bottom: 96px;
+}
+
+.interest-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.interest-text {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 54px;
+}
+
+.interest-link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-decoration-line: none;
+  text-transform: uppercase;
+  background-color: #756157;
+  color: #FFFFFF;
+  border-radius: 4px;
+  padding: 8px 50px;
+}
+
+.subscription {
+  background-color: #4e7f9f;
+  background-image: url("../images/mountains-blure.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  margin-bottom: 45px;
+  padding-top: 96px;
+  padding-bottom: 104px;
+}
+
+.subscription-container {
+  width: 500px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 54px;
+}
+
+.subscription-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.subscription-text {
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+}
+
+.subscription-form {
+  width: 684px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.subscribe-button {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: #82B3D3;
+  color: #FFFFFF;
+  border-radius: 0 4px 4px 0;
+  padding: 8px 10px;
+  width: 232px;
+  border: none;
+}
+
+.subscribe-field {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  border-radius: 4px 0 0 4px;
+  width: 452px;
+  min-height: 52px;
+  border: none;
+  padding: 0 21px;
+  box-sizing: border-box;
+}
+
+.contacts {
+  display: flex;
+  width: 1060px;
+  margin: 0 auto;
+  padding-bottom: 35px;
+}
+
+.contacts-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.contacts-item {
+  margin-right: 27px;
+}
+
+.tel {
+  margin-left: 249px;
+}
+
+.contacts-link {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration-line: none;
+}
+
+.html-academy {
+  margin-left: auto;
+}
+
+.inner-container {
+  background-image: url("../images/mountain-blure.jpg");
+  background-repeat: no-repeat;
+  margin-bottom: 50px;
+  background-size: cover;
+}
+
+.content-container {
+  margin: 0 auto;
+  width: 1060px;
+  padding-top: 35px;
+  padding-bottom: 70px;
+}
+
+.inner-header-title {
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+  color: #FFFFFF;
+  margin-bottom: 8px;
+}
+
+.header-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.header-item {
+  margin-right: 29px;
+}
+
+.header-link {
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.filter-catalog{
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter-catalog-part {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.filter-catalog-part-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+
+.filter-catalog-part-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 32px;
+}
+
+.filter-catalog-part-item {
+  font-size: 18px;
+  line-height: 23px;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+
+.filter-catalog-part-input {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  width: 143px;
+}
+
+.prices {
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.filter-button {
+  font-weight: "PT Sans", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  background-color: #82B3D3;
+  margin-bottom: 32px;
+  padding:8px 50px;
+}
+
+.filter-reset {
+  font-weight: "PT Sans", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  background-color: none;
+  padding:8px 50px;
+  background-color: none;
+}
+
+.button-container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 56px;
+}
+
+
+.result {
+  display: flex;
+  margin: 0 auto;
+  width: 1060px;
+  margin-bottom: 67px;
+  justify-content: space-between;
+}
+
+.result-text {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+
+.result-select {
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+}
+
+.result-list {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.result-item {
+  margin-right: 40px;
+}
+
+.variants {
+  width: 1060px;
+  margin: 0 auto;
+}
+
+.variants-list {
+  width:1060px;
+  margin:0 auto;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 340px 340px 340px;
+  gap:20px;
+  margin-bottom: 80px;
+
+}
+
+.variants-item {
+  padding: 20px;
+}
+
+.variants-item-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.variants-item-link {
+  text-decoration-line: none;
+  margin: 0;
+  padding: 0;
+}
+
+.variants-item-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.type {
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+}
+
+.price {
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+}
+
+.choose-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.variants-hotel-link {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration-line: none;
+  color: #FFFFFF;
+  background-color: #756157;
+  border-radius: 4px;
+  padding: 8px 26px;
+
+}
+
+.variants-choose-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  background-color: #82B3D3;
+  border-radius: 4px;
+
+}
+
+.variants-chosen-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  background-color: #7DB54F;
+  border-radius: 4px;
+
+}
+
+.rating {
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.pagination-list {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-left: 70px;
+  margin-bottom: 156px;
+}
+
+.pagination-item {
+  width: 60px;
+  margin-right: 8px;
+}
+
+.pagination-item-text{
+  text-align: center;
+}
+
+.pagination-item-link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  color: #FFFFFF;
+  text-decoration-line: none;
+  border-radius: 4px;
+  background-color: #82B3D3;
+  padding: 12px 25px;
+}
+
+.pagination-current-link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  color: #000000;
+  text-decoration-line: none;
+  background-color: #F2F2F2;
+}
+
+.subscription-catalog {
+  background-color: #ffffff;
+  margin-bottom: 45px;
+  padding-top: 96px;
+  padding-bottom: 104px;
+}
+
+.subscribe-field{
+  background-color: #F2F2F2;
+}
+
+
+.title-calalog{
+  color: #000000;
+}
+
+.text-catalog{
+  color:#333333;
+}
