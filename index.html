@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <title>HTML Academy: Седона</title>
   <link rel="stylesheet" href="styles/styles.css">
+  <link rel="icon" type="image/x-icon" sizes="32x32" href="favicon/favicon.ico">
 </head>
 
 <body>
@@ -83,13 +84,13 @@
 
           <li class="reasons-item">
             <div class="reasons-container">
-              <h3 class="reasons-title">Красивая дорога</h3>
+              <h3 class="reasons-title">Красивая<br> дорога</h3>
               <p class="reasons-text">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
             </div>
           </li>
           <li class="reasons-item">
             <div class="reasons-container">
-              <h3 class="reasons-title">Мало туристов</h3>
+              <h3 class="reasons-title">Мало<br> туристов</h3>
               <p class="reasons-text">Большинство едет в Гранд Каньон и толпится там</p>
             </div>
           </li>
@@ -210,7 +211,7 @@
         </a>
       </section>
     </footer>
-    <div class="modal-wrapper">
+    <div class="modal-wrapper ">
       <div class="modal modal-auth">
         <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
         <button class="modal-close-button" type="button">
@@ -223,12 +224,12 @@
           </svg>
         </button>
         <form action="https://echo.htmlacademy.ru" class="modal-form" method-get>
-          <div class="check-in-container">
-            <label class="date-label date-check-in-label" for="date-check-in">Дата заезда:</label>
+          <div class="date-container">
+            <label class="date-label" for="date-check-in">Дата заезда:</label>
             <figure class="input-figure">
               <input class="date-input" type="text" id="date-check-in" placeholder="27 апреля 2020" name="date-check-in"
                 required>
-              <button class="date-button date-button-check-in" type="button">
+              <button class="date-button date-button-image" type="button">
                 <span class="visually-hidden">Календарь</span>
               </button>
               <figcaption class="figcaption-check-in">
@@ -236,12 +237,12 @@
               </figcaption>
             </figure>
           </div>
-          <div class="departure-container">
-            <label class="date-label date-departure-label" for="departure">Дата выезда:</label>
+          <div class="date-container">
+            <label class="date-label" for="departure">Дата выезда:</label>
             <figure class="input-figure">
               <input class="date-input" type="text" id="departure" placeholder="1 сентября 2023" name="departure"
                 required>
-              <button class="date-button date-button-departure" type="button">
+              <button class="date-button date-button-image" type="button">
                 <span class="visually-hidden">Календарь</span>
               </button>
               <figcaption class="figcaption-departure">
@@ -251,7 +252,7 @@
           </div>
 
           <div class="number-of-peoples">
-            <label class="date-label" for="adult">Взрослые:</label>
+            <label class="people-label adult-label" for="adult">Взрослые:</label>
             <button class="peoples-button minus-radius" type="button"><svg class="peoples-button-svg" width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
               <path d="M3 9V11H17V9H3Z" />
               </svg>
@@ -263,9 +264,13 @@
                 <path d="M14 6H8V0H6V6H0V8H6V14H8V8H14V6Z" />
               </svg>
             </button>
-            <label class="date-label departure-label" for="children">Дети:</label>
-            <button class="children-button" type="button"><span class="visually-hidden">Укажите количество детей,
-                которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</span>
+            <label class="people-label children-label" for="children">Дети:</label>
+            <button class="children-button" type="button">
+              <span class="explane-text-container">
+              <span class="explane-text ">Укажите количество детей,
+                которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.
+              </span>
+            </span>
             </button>
             <button class="peoples-button minus-radius" type="button">
               <svg class="peoples-button-svg" width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -285,6 +290,7 @@
       </div>
     </div>
   </div>
+  <script src="./scripts/script.js"></script>
 </body>
 
 </html>
